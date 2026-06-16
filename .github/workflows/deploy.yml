@@ -26,8 +26,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t namegen .
-        docker tag namegen:latest 574441343585.dkr.ecr.eu-central-1.amazonaws.com/namegen:latest
+    	docker build -t namegen ./namegen
+    	docker tag namegen:latest 574441343585.dkr.ecr.eu-central-1.amazonaws.com/namegen:latest
 
     - name: Push Docker Image
       run: |
