@@ -1,0 +1,42 @@
+name: Build and Deploy to EKS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Configure AWS
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+
+    - name: Login ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v2
+
+    - name: Build Docker Image
+      run: |
+        docker build -t namegen .
+        docker tag namegen:latest 574441343585.dkr.ecr.eu-central-1.amazonaws.com/namegen:latest
+
+    - name: Push Docker Image
+      run: |
+        docker push 574441343585.dkr.ecr.eu-central-1.amazonaws.com/namegen:latest
+
+    - name: Update kubeconfig
+      run: |
+        aws eks update-kubeconfig --name devops-final --region eu-central-1
+
+    - name: Restart Deployment
+      run: |
+        kubectl rollout restart deployment/namegen
