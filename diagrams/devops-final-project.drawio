@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="‫עמוד-1‬" id="TPT7kZjgw3Bp0PNMia32">
+    <mxGraphModel dx="1212" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;span&gt;Developer&lt;/span&gt;&lt;br&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="302" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="361" y="130" as="sourcePoint" />
+            <mxPoint x="361" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GitHub Repository" vertex="1">
+          <mxGeometry height="60" width="120" x="302" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="361" y="270" as="sourcePoint" />
+            <mxPoint x="361" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;span&gt; GitHub Actions&lt;/span&gt;&lt;br&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="302" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="361" y="420" as="sourcePoint" />
+            <mxPoint x="361" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Amazon ECR" vertex="1">
+          <mxGeometry height="60" width="120" x="302" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="361" y="560" as="sourcePoint" />
+            <mxPoint x="361" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-14" edge="1" parent="1" source="jCAUkPOCFXi2mHrerQyz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="408" y="760" />
+            </Array>
+            <mxPoint x="408" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;Amazon EKS Cluster" vertex="1">
+          <mxGeometry height="60" width="120" x="302" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="308" y="700" as="sourcePoint" />
+            <mxPoint x="308" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Namegen Deployment (2 Pods)" vertex="1">
+          <mxGeometry height="60" width="120" x="362" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-19" edge="1" parent="1" source="jCAUkPOCFXi2mHrerQyz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jCAUkPOCFXi2mHrerQyz-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&#xa;MongoDB StatefulSet&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="198" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="+" vertex="1">
+          <mxGeometry height="30" width="60" x="308" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-18" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Persistent Volume" vertex="1">
+          <mxGeometry height="60" width="120" x="198" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="572" y="61" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="631" y="131" as="sourcePoint" />
+            <mxPoint x="631" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NLB" vertex="1">
+          <mxGeometry height="60" width="120" x="572" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="631" y="271" as="sourcePoint" />
+            <mxPoint x="631" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;Service&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="572" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="631" y="421" as="sourcePoint" />
+            <mxPoint x="631" y="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCAUkPOCFXi2mHrerQyz-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Namegen Pods" vertex="1">
+          <mxGeometry height="60" width="120" x="572" y="491" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
